@@ -1,6 +1,6 @@
 import { Outlet, useNavigate, useLocation } from 'react-router-dom';
 import { useEffect } from 'react';
-import { useAuth } from './AuthContext';
+import { useAuth } from '../../context/AuthContext';
 
 function PrivateComponent() {
   const navigate = useNavigate();

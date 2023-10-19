@@ -1,18 +1,18 @@
 import React from 'react';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 
-import { AuthProvider } from './AuthContext';
-import PrivateComponent from './PrivateComponent';
+import { AuthProvider } from './context/AuthContext';
+import PrivateComponent from './components/Functional/PrivateComponent';
 
-import LandingPage from './LandingPage';
-import MainLayout from './MainLayout';
-import HomePage from './HomePage';
-import UserGarden from './UserGarden';
-import PlantDirectory from './PlantDirectory';
-import Journal from './Journal';
-import Marketplace from './Marketplace';
-import Login from './Login';
-import SignUp from './SignUp';
+import LandingPage from './pages/LandingPage';
+import MainLayout from './pages/MainLayout';
+import HomePage from './pages/HomePage';
+import UserGarden from './pages/UserGarden';
+import PlantDirectory from './pages/PlantDirectory';
+import Journal from './pages/Journal';
+import Marketplace from './pages/Marketplace';
+import Login from './pages/Login';
+import SignUp from './pages/SignUp';
 
 
 function App() {

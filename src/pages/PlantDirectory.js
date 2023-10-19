@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import './PlantDirectory.css';
-import { useAuth } from './AuthContext';
+import { useAuth } from '../context/AuthContext';
 import axios from 'axios';
 
 function PlantDirectory() {

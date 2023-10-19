@@ -1,8 +1,8 @@
 // HomePage.js
 
 import React from 'react';
-import CareReminder from './CareReminder';
-import WeatherBasedSuggestions from './WeatherBasedSuggestions';
+import CareReminder from '../components/Plant/CareReminder';
+import WeatherBasedSuggestions from '../components/Plant/WeatherBasedSuggestions';
 
 function HomePage() {
     return (

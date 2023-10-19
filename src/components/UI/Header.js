@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { Link, useNavigate } from 'react-router-dom';
 import axios from 'axios';
-import { useAuth } from './AuthContext';
+import { useAuth } from '../../context/AuthContext';
 import './Header.css';
 
 function Header() {
